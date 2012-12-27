@@ -18,7 +18,7 @@ import time
 maxsize = 640
 
 def compute_size(h, w, ms=maxsize):
-  return (ms, int(1.0*ms*h/w)) if w > h else (int(1.0*ms*w/h), ms)
+	return (ms, int(1.0*ms*h/w)) if w > h else (int(1.0*ms*w/h), ms)
 
 
 def extract_feature(detector, img_path, img=None):
